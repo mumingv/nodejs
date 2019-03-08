@@ -6,6 +6,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
+// 注册wiki子路由
 app.use('/wiki', wiki);
 
 app.listen(3000, () => {
